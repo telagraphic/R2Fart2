@@ -1,0 +1,12 @@
+{
+  "name": "R2Fart2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "server": "browser-sync start --s './' --files '*.html'"
+  },
+  "keywords": [],
+  "author": "telagraphic",
+  "license": "ISC"
+}
