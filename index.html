@@ -44,6 +44,10 @@
     }
 
     .artwork__svg {}
+
+    audio {
+      display: none;
+    }
   </style>
 </head>
 
@@ -319,8 +323,35 @@
         </g>
       </svg>
     </article>
-  </main>
 
+    <audio src="audio/sfx-1.wav"></audio>
+  </main>
+  <script>
+    const button = document.querySelector('.artwork');
+
+    function playSound() {
+      const audio = document.querySelector('audio');
+      if (!audio) return;
+      audio.currentTime = 0;
+      audio.play();
+    }
+
+    if (document.documentElement.clienwidth <= 600) {
+      mobileButton.on("press tap", function(event) {
+        console.log(event);
+        playSound();
+      });
+    } else {
+      button.addEventListener('click', function(event) {
+        playSound();
+      });
+    }
+
+    window.addEventListener('resize', () => {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+  </script>
 </body>
 
 </html>
