@@ -1,246 +1,209 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 729.23 1122.5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.23 1122.5">
   <defs>
-    <linearGradient id="linear-gradient" x1="368.61" y1="1051.5" x2="369.07" y2="1051.5" gradientUnits="userSpaceOnUse">
+    <linearGradient class="linear-gradient" x1="368.61" y1="1051.5" x2="369.07" y2="1051.5" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1"/>
     </linearGradient>
   </defs>
-  <g id="R2D2-2" data-name="R2D2">
-    <g id="Head">
-      <g>
-        <g id="Foot_Connector" data-name="Foot Connector">
-          <path id="Foot_Connector-2" data-name="Foot Connector" d="M191.61,825.68s172.83,41.68,354.92,0L512.61,887s-72.29,18.9-175,14.42a690.59,690.59,0,0,1-114-14.42Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <g id="Outlines">
-            <polyline points="204.11 829.48 231.61 882 257.61 887 241.11 835.9 204.11 829.48" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M252.61,837.43l17,51.57a605.26,605.26,0,0,0,68,6l-7-51.82s-53-1.32-78-5.75" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="343.68 844 349.61 895 388.61 895 395.72 843.72 343.68 844" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M406.61,844l-6,51a680.13,680.13,0,0,0,71-7l14.48-50.53S422.69,843,406.61,843" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M496.11,836.12,481.61,886a104,104,0,0,0,26-6l26-50.59s-21,4.84-37.5,6.71" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-        </g>
-        <polygon points="459.61 1079 450.61 981 431.61 981 427.61 973 425.61 956 421.61 953 418.61 953 410.61 935 405.61 935 402.61 928 396.61 928 396.61 901.57 339.61 901.57 339.61 928 333.61 928 330.61 935 325.61 935 317.61 953 314.61 953 310.61 956 308.61 973 304.61 981 285.61 981 276.61 1079 283.61 1079 279.61 1093 285.61 1106 286.61 1106 449.61 1106 450.61 1106 456.61 1093 452.61 1079 459.61 1079" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="279.61" y1="1093" x2="456.61" y2="1093" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polyline points="452.61 1079 405.61 944 379.61 944 379.61 928 356.61 928 356.61 944 329.61 944 283.61 1079" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polygon points="355.61 956 368.11 956 380.61 956 380.61 987 355.61 987 355.61 956" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="368.61" y1="956" x2="368.61" y2="987" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <rect x="353.61" y="987" width="29" height="100" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polyline points="459.61 1079 410.61 948 410.61 935" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polyline points="276.61 1079 324.61 947 325.61 935" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="405.61" y1="935" x2="405.61" y2="944" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="330.61" y1="935" x2="329.61" y2="944" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="367.45" y1="902.11" x2="367.45" y2="928" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="339.61" y1="928" x2="396.61" y2="928" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polyline points="304.61 981 306.61 985 310.8 985" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <polyline points="431.61 981 430.61 984 424.08 984" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        <line x1="369.07" y1="1106" x2="368.61" y2="997" stroke="#000" stroke-miterlimit="10" fill="url(#linear-gradient)"/>
-        <polygon points="285.43 983 278.61 989 275.61 1057 278.63 1057 285.43 983" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <polygon points="450.61 983 457.43 989 460.43 1057 457.41 1057 450.61 983" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <g id="Foot_Exterior" data-name="Foot Exterior">
-          <path id="Foot_Front" data-name="Foot Front" d="M145.61,951l2,122s-3-4-7-2a4.05,4.05,0,0,0-2,5v46h-127l-8-13,46-156Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <line id="Foot_Outside_Toe" data-name="Foot Outside Toe" x1="3.61" y1="1109" x2="138.61" y2="1109" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <g id="Foot_Side_Outline_1" data-name="Foot Side Outline 1">
-            <polygon id="Foot_Side" data-name="Foot Side" points="53.4 924.22 47.61 924 40.61 961 2.61 1088 9.25 1089.89 49.61 953 53.61 927 53.4 924.22" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <g id="Foot_Side_Outline_2" data-name="Foot Side Outline 2">
-            <polyline points="47.15 961 40.61 961 34.11 982.74 28.61 982 38.61 936 45.82 933.48" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polygon points="22.48 1021.58 14.61 1030 0.61 1076 5.63 1077.93 22.48 1021.58" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <path id="Foot_Side_Ankle" data-name="Foot Side Ankle" d="M31.81,967.27,8.61,967s-7,6-6,40,1,57,1,57l11-34,8-8,11-39-5-1Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Foot_Interior" data-name="Foot Interior">
-          <g id="Ankle_Interior" data-name="Ankle Interior">
-            <path id="Ankle_Interior_Outline" data-name="Ankle Interior Outline" d="M145.61,821.61s37-1.61,37,50.39V996s1,36.43-37,38.21Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path id="Foot_Inside_Toe" data-name="Foot Inside Toe" d="M138.61,1122h44l9-16h-24s-19-2-19-21-10-14.88-10-10.44Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path id="Foot_Inside_Interior" data-name="Foot Inside Interior" d="M191.61,1106l5-81h-26s-7,8-18,8v5s7,20,15,26,1,19-5,19-14.28-.22-14.14-6.61c0,0-2.86,29.61,19.14,29.61Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M145.61,837.43s32,3.57,32,34.57h-32Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="164.61 933 169.61 933 169.61 972 165.61 972 145.61 972" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M145.61,992h21v-2h16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <line x1="145.61" y1="997.16" x2="182.6" y2="997.16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="166.76 872 166.61 886 145.61 886" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="164.12 886.5 164.12 933 145.61 933" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="145.61 940 165.61 940 165.61 965 145.61 965" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <line x1="166.61" y1="990" x2="166.61" y2="972" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <path id="Ankle_Locket" data-name="Ankle Locket" d="M76.61,1016c44,0,69-.5,69-.5s8-2.5,7,22.5c0,0,7,22,15,26s4,19-5,19-9.25-1-14-4c-.21-.14.87-7.84-5-8s-5,4-5,4l-61-1s-9-5,0-12l69-1-1-32.83-68-.17S71.38,1023.85,76.61,1016Z" fill="#501d20" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Shin">
-          <path id="Shin_Side" data-name="Shin Side" d="M53.61,769s2,45,6,61l-3,3v13l-6,9v8s-9,11,2,19l-2,7,3,38H76l-1.4-46h-16V866h16l-3-91h-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shin_Front" data-name="Shin Front" points="71.99 775.05 74.61 866 58.61 866 58.61 881 74.61 881 76.61 947 145.61 947 145.61 812.38 138.61 809 138.61 776.11 71.99 775.05" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Joint_Bottom" data-name="Joint Bottom" d="M74.61,884h-18l-1,3-5,2" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Joint_Top" data-name="Joint Top" d="M74.29,856.3S55.61,850,50.61,863" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shin_Bottom" data-name="Shin Bottom" points="53.61 927 49.61 953 145.61 951 145.61 947 75.61 947 76.01 927 53.61 927" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Mid_Leg" data-name="Mid Leg">
-          <path id="Base_Ring" data-name="Base Ring" d="M138.61,776.1l-70-1.1a86.9,86.9,0,0,1-14.52-5.54c-4.11-2.14-7.48-4.72-7.48-7.46v-8s2.78-11.51,21.89-12.76L68.61,752h2v6l23,3h45v15.1" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Lower_Leg_Divit" data-name="Lower Leg Divit" points="74.15 725 92.61 725 92.61 729 74.61 729 74.15 725" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Lower_Leg_Rectangle" data-name="Lower Leg Rectangle" points="74.61 726 69.61 731 70.61 758 93.61 761 92.61 729 74.61 729 74.61 726" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <rect id="Upper_Leg_Rectangle_2" data-name="Upper Leg Rectangle 2" x="96.61" y="604" width="42" height="13" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <rect id="Upper_Leg_Rectangle_1" data-name="Upper Leg Rectangle 1" x="94.61" y="580" width="44" height="24" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <line id="Upper_Leg_Line" data-name="Upper Leg Line" x1="138.6" y1="588.16" x2="94.61" y2="588.16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Inner_Mid_Leg" data-name="Inner Mid Leg" d="M94.61,595h-3s1,152,2,166h45V617h-42V604h-2Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Blue_SIde_Part" data-name="Blue SIde Part" d="M65.45,562.23,42.61,574l-1,5-5,4v4l-3,2s-1,13,6,15h4l3,4,7,1,3,5,12,1v6l-3,2v10h4v15l-4,1v6l2,1,1,96h1.78l-.78-21,5-5-.46-1H71.61V595h-3l-3-27Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Outer_Mid_Leg" data-name="Outer Mid Leg" points="65.61 568 68.61 595 71.61 595 71.61 725 92.61 725 91.61 595 94.61 595 94.61 580 138.6 580.29 138.6 568 65.61 568" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Shoulder">
-          <polygon id="Shoulder_Lego_2" data-name="Shoulder Lego 2" points="65.61 434 61.61 434 61.61 443 58.61 443 58.61 461 62.61 464 62.61 474 49.61 475 49.61 484 65.45 484 65.61 434" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shoulder_Lego_1" data-name="Shoulder Lego 1" points="65.61 484 46.61 484 47.61 538 65.45 538 65.61 484" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Shoulder-2" data-name="Shoulder" d="M138.6,316.7l-70,.3s-4,71-3,117V568h73V316.7" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Foot_Exterior-2" data-name="Foot Exterior">
-          <path id="Foot_Front-2" data-name="Foot Front" d="M583.61,951l-2,122s3-4,7-2a4,4,0,0,1,2,5v46h127l8-13-46-156Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <line id="Foot_Outside_Toe-2" data-name="Foot Outside Toe" x1="725.61" y1="1109" x2="590.61" y2="1109" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <g id="Foot_Side_Outline_1-2" data-name="Foot Side Outline 1">
-            <polygon id="Foot_Side-2" data-name="Foot Side" points="675.83 924.22 681.61 924 688.61 961 726.61 1088 719.98 1089.89 679.61 953 675.61 927 675.83 924.22" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <g id="Foot_Side_Outline_2-2" data-name="Foot Side Outline 2">
-            <polyline points="682.08 961 688.61 961 695.12 982.74 700.61 982 690.61 936 683.41 933.48" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polygon points="706.74 1021.58 714.61 1030 728.61 1076 723.6 1077.93 706.74 1021.58" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <path id="Foot_Side_Ankle-2" data-name="Foot Side Ankle" d="M697.41,967.27l23.2-.27s7,6,6,40-1,57-1,57l-11-34-8-8-11-39,5-1Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Foot_Interior-2" data-name="Foot Interior">
-          <g id="Ankle_Interior-2" data-name="Ankle Interior">
-            <path id="Ankle_Interior_Outline-2" data-name="Ankle Interior Outline" d="M583.61,821.61s-37-1.61-37,50.39V996s-1,36.43,37,38.21Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path id="Foot_Inside_Toe-2" data-name="Foot Inside Toe" d="M590.61,1122h-44l-9-16h24s19-2,19-21,10-14.88,10-10.44Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path id="Foot_Inside_Interior-2" data-name="Foot Inside Interior" d="M537.61,1106l-5-81h26s7,8,18,8v5s-7,20-15,26-1,19,5,19,14.29-.22,14.15-6.61c0,0,2.85,29.61-19.15,29.61Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M583.61,837.43s-32,3.57-32,34.57h32Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="564.61 933 559.61 933 559.61 972 563.61 972 583.61 972" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M583.61,992h-21v-2h-16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <line x1="583.61" y1="997.16" x2="546.63" y2="997.16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="562.47 872 562.61 886 583.61 886" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="565.11 886.5 565.11 933 583.61 933" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline points="583.61 940 563.61 940 563.61 965 583.61 965" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <line x1="562.61" y1="990" x2="562.61" y2="972" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <path id="Ankle_Locket-2" data-name="Ankle Locket" d="M652.61,1016c-44,0-69-.5-69-.5s-8-2.5-7,22.5c0,0-7,22-15,26s-4,19,5,19,9.25-1,14-4c.22-.14-.87-7.84,5-8s5,4,5,4l61-1s9-5,0-12l-69-1,1-32.83,68-.17S657.85,1023.85,652.61,1016Z" fill="#501d20" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Shin-2" data-name="Shin">
-          <path id="Shin_Side-2" data-name="Shin Side" d="M675.61,769s-2,45-6,61l3,3v13l6,9v8s9,11-2,19l2,7-3,38H653.22l1.39-46h16V866h-16l3-91h3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shin_Front-2" data-name="Shin Front" points="657.23 775.05 654.61 866 670.61 866 670.61 881 654.61 881 652.61 947 583.61 947 583.61 812.38 590.61 809 590.61 776.11 657.23 775.05" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Joint_Bottom-2" data-name="Joint Bottom" d="M654.61,884h18l1,3,5,2" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Joint_Top-2" data-name="Joint Top" d="M654.93,856.3s18.68-6.3,23.68,6.7" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shin_Bottom-2" data-name="Shin Bottom" points="675.61 927 679.61 953 583.61 951 583.61 947 653.61 947 653.22 927 675.61 927" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Mid_Leg-2" data-name="Mid Leg">
-          <path id="Base_Ring-2" data-name="Base Ring" d="M590.61,776.1l70-1.1a86.85,86.85,0,0,0,14.53-5.54c4.1-2.14,7.47-4.72,7.47-7.46v-8s-2.77-11.51-21.88-12.76L660.61,752h-2v6l-23,3h-45l0,15.1" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Lower_Leg_Divit-2" data-name="Lower Leg Divit" points="655.08 725 636.61 725 636.61 729 654.61 729 655.08 725" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Lower_Leg_Rectangle-2" data-name="Lower Leg Rectangle" points="654.61 726 659.61 731 658.61 758 635.61 761 636.61 729 654.61 729 654.61 726" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <rect id="Upper_Leg_Rectangle_2-2" data-name="Upper Leg Rectangle 2" x="590.61" y="604" width="42" height="13" stroke-miterlimit="10" fill="#e9e7f1" stroke="#000" transform="translate(1223.23 1220.99) rotate(180)"/>
-          <rect id="Upper_Leg_Rectangle_1-2" data-name="Upper Leg Rectangle 1" x="590.61" y="580" width="44" height="24" stroke-miterlimit="10" fill="#e9e7f1" stroke="#000" transform="translate(1225.23 1183.99) rotate(180)"/>
-          <line id="Upper_Leg_Line-2" data-name="Upper Leg Line" x1="590.63" y1="588.16" x2="634.61" y2="588.16" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Inner_Mid_Leg-2" data-name="Inner Mid Leg" d="M634.61,595h3s-1,152-2,166h-45l0-144h42V604h2Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Blue_SIde_Part-2" data-name="Blue SIde Part" d="M663.77,562.23,686.61,574l1,5,5,4v4l3,2s1,13-6,15h-4l-3,4-7,1-3,5-12,1v6l3,2v10h-4v15l4,1v6l-2,1-1,96h-1.77l.77-21-5-5,.47-1h2.53V595h3l3-27Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Outer_Mid_Leg-2" data-name="Outer Mid Leg" points="663.61 568 660.61 595 657.61 595 657.61 725 636.61 725 637.61 595 634.61 595 634.61 580 590.63 580.29 590.63 568 663.61 568" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Shoulder-3" data-name="Shoulder">
-          <polygon id="Shoulder_Lego_2-2" data-name="Shoulder Lego 2" points="663.61 434 667.61 434 667.61 443 670.61 443 670.61 461 666.61 464 666.61 474 679.61 475 679.61 484 663.77 484 663.61 434" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Shoulder_Lego_1-2" data-name="Shoulder Lego 1" points="663.61 484 682.61 484 681.61 538 663.77 538 663.61 484" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Shoulder-4" data-name="Shoulder" d="M590.63,316.7V568h73V434c1-46-3-117-3-117Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <path id="Body_Core" data-name="Body Core" d="M597.61,316c-249,59-459-3-459-3V809s60,35,230,35,221-34,221-34l8-490.5V316" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <g id="Bottom_Row" data-name="Bottom Row">
-          <g id="Bottom_Left_Rectangle_1" data-name="Bottom Left Rectangle 1">
-            <path id="Bottom_Far_Left" data-name="Bottom Far Left" d="M159.61,682l45,12V813s-25-5-45-14Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <g id="Inside">
-              <line x1="198.61" y1="708" x2="198.61" y2="775" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-              <line x1="190.61" y1="706" x2="190.61" y2="772" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-              <line x1="180.61" y1="703.5" x2="180.61" y2="769.5" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-              <line x1="172.61" y1="700.5" x2="172.61" y2="766.5" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-              <line x1="164.61" y1="698.5" x2="164.61" y2="764.5" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-              <polygon points="163.61 777 199.61 786 199.61 800 163.61 790 163.61 777" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-            </g>
-          </g>
-          <g id="Bottom_Left_Long_Rectangle" data-name="Bottom Left Long Rectangle">
-            <path id="Bottom_Left_Box" data-name="Bottom Left Box" d="M220.61,738s51,5,88,8v78s-36-1-88-8Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <polyline id="Notch_Inset" data-name="Notch Inset" points="234.61 800.5 234.61 751 272.61 755 272.61 805" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.5"/>
-          </g>
-          <g id="Bottom_Middle_Box" data-name="Bottom Middle Box">
-            <rect id="Bottom_Middle_Box-2" data-name="Bottom Middle Box" x="329.61" y="748" width="78" height="77" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-            <circle id="Big_Circle" data-name="Big Circle" cx="368.61" cy="787" r="36" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-            <circle id="Small_Circle" data-name="Small Circle" cx="368.61" cy="787" r="13.5" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <polygon id="Bottom_Right_Rectangle_1" data-name="Bottom Right Rectangle 1" points="466.61 746 432.61 748 432.61 825 466.61 822 466.61 746" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Bottom_Right_Rectangle_2" data-name="Bottom Right Rectangle 2" points="484.61 820 484.11 744.5 506.11 742.5 506.11 816.5 484.61 820" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <ellipse id="Bottom_Right_Rectangle_3" data-name="Bottom Right Rectangle 3" cx="523.11" cy="777" rx="51.67" ry="13.42" transform="translate(-259.82 1291.18) rotate(-89.34)" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <g id="Bottom_Right_Octagon" data-name="Bottom Right Octagon">
-            <path id="Bottom_Right_Octogon" data-name="Bottom Right Octogon" d="M551.61,736l15-4,9,16v32l-9,22-14,5q-6.5-8.5-13-17-.5-16-1-32Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-            <ellipse cx="560.61" cy="770" rx="12" ry="7" transform="translate(-219.05 1317.09) rotate(-89)" fill="#b7b8b4" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-        </g>
-        <g id="Center_Bottom_Outlines" data-name="Center Bottom Outlines">
-          <polygon id="Mid_Center_Far_Right" data-name="Mid Center Far Right" points="533.11 700.5 570.11 692.5 570.11 713.5 533.11 722.5 533.11 700.5" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Mid_Center_Right" data-name="Mid Center Right" d="M450.11,707.5l66-5v23l-66.5,6.5Q449.86,719.75,450.11,707.5Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <ellipse id="Mid_Center_Outline" data-name="Mid Center Outline" cx="368.36" cy="720.75" rx="61.17" ry="17.68" transform="translate(-4.54 2.34) rotate(-0.36)" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <ellipse id="Mid_Left_Outline" data-name="Mid Left Outline" cx="268.61" cy="719" rx="16.2" ry="28.4" transform="translate(-475.74 906.22) rotate(-83.63)" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Middle_Blue_Box" data-name="Middle Blue Box">
-          <path id="Core_Middle_Rectangle" data-name="Core Middle Rectangle" d="M320.61,514s74,2,96,0V693h-96Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-          <rect id="Core_Middle_Rounded_Square" data-name="Core Middle Rounded Square" x="330.61" y="610" width="79" height="79" rx="24.25" fill="#a09fa3"/>
-          <rect id="Core_Middle_Rounded_Square-2" data-name="Core Middle Rounded Square" x="330.61" y="522" width="79" height="79" rx="24.25" fill="#a09fa3"/>
-        </g>
-        <g id="Middle_Left_Outlines" data-name="Middle Left Outlines">
-          <g id="Middle_Left_Rectangle" data-name="Middle Left Rectangle">
-            <path id="Left_Panel_Outside" data-name="Left Panel Outside" d="M305.61,588l-.5,104.5s-15.5.5-43-2v-104S272.61,587,305.61,588Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-            <path id="Left_Panel_Outside-2" data-name="Left Panel Outside" d="M299.11,596.73l-.35,85.73s-11,.41-30.6-1.64V595.5S275.64,595.91,299.11,596.73Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <g id="Left_6_Outlines" data-name="Left 6 Outlines">
-            <path d="M220.61,677l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M220.61,658.2l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M220.61,620.6l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M220.61,639.4l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M220.61,601.8l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M220.61,583l31,3v9l-31-3Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <path id="Top_Panel" data-name="Top Panel" d="M304.61,514s-32,0-84-6v54s31,5,84,6V514" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Middle_Right_Outlines" data-name="Middle Right Outlines">
-          <path id="Right_Panel_Inside" data-name="Right Panel Inside" d="M450.61,531s23-1,56-2V668s-14,4-56,5Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Right_Panel_Outside" data-name="Right Panel Outside" d="M432.61,514s31,1,84-3V683s-8,5-84,8Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Right_Side_Outline" data-name="Right Side Outline">
-          <path id="Right_Outline_Outside" data-name="Right Outline Outside" d="M535.11,365.5l38-7v311l-38,10Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <polyline id="Right_Outline_Inside" data-name="Right Outline Inside" points="543.61 375.5 566.61 371.5 566.61 662 543.61 668.5 543.61 375.5" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Left_Side_Outline" data-name="Left Side Outline">
-          <path id="Right_Outline_Outside-2" data-name="Right Outline Outside" d="M203.11,365.5l-38-7v311l38,10Z" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          <polyline id="Right_Outline_Inside-2" data-name="Right Outline Inside" points="194.61 375.5 171.61 371.5 171.61 662 194.61 668.5 194.61 375.5" fill="none" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <g id="Chest_Shapes" data-name="Chest Shapes">
-          <g id="Core_Top_Panel_Outlines" data-name="Core Top Panel Outlines">
-            <path d="M517.61,331.5l-1,162.5s-159,17-296-2V331.5" fill="none" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M516.61,427c-74,4-141,13-296-1" fill="none" stroke="#000" stroke-miterlimit="10"/>
-            <path d="M516.61,363c-74,4-141,13-296-1" fill="none" stroke="#000" stroke-miterlimit="10"/>
-          </g>
-          <polygon id="Core_Bottom_Panel" data-name="Core Bottom Panel" points="232.61 451 232.61 473 262.61 473 291.61 484 392.61 486 392.61 477 443.61 479 450.61 486 504.61 472 504.61 451 450.61 445 444.61 452 392.61 456 392.61 447 288.61 445 262.61 453 232.61 451" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-          <polygon id="Core_Middle_Panel" data-name="Core Middle Panel" points="503.61 385 503.61 407 473.61 407 444.61 418 343.61 420 343.61 411 292.61 413 285.61 420 231.61 406 231.61 385 285.61 379 291.61 386 343.61 390 343.61 381 447.61 379 473.61 387 503.61 385" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-          <path id="Core_Top_Panel" data-name="Core Top Panel" d="M503.61,340s-83,16-272,0v14s166,19,272,0Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        </g>
-        <path id="Gray_Collar" data-name="Gray Collar" d="M597.61,316c-210.82,51.41-400,15-459-3,0-1.6,0-13.87,0-27,0-.77,100.11,22.84,225,25,126.94,2.18,234.5-25.56,234.5-23.91C598.11,300.22,597.66,314,597.61,316Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Blue_Collar" data-name="Blue Collar" d="M594,287.46c-207.6,47-394,12.06-450.88-1,0-1.46-.55-8.43-.55-20.43,0-.7,98,23,221,25,125,2,231-25.52,231-24C594.61,279,594.09,285.66,594,287.46Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Clean_Dome" data-name="Clean Dome" d="M598.61,261c0,1.85,0,3.69-.07,5.53-211.75,47.92-401.89,12.3-459.88-1,0-1.49,0-3,0-4.48,0-127,103-230,230-230S598.61,134,598.61,261Z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Right_Small_Patch_2" data-name="Panel Right Small Patch 2" d="M573.61,262l16-3s-3-49-13-74l-17,3S572.61,233,573.61,262Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Right_Small_Patch_1" data-name="Panel Right Small Patch 1" d="M553.11,189.5c7,25,13,59,12,74,0,0-19,4-28,5,0,0-5-53-12-76Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Left_Medium_Patch" data-name="Panel Left Medium Patch" d="M454.61,274c-56,3-94,2-94,2V221h92S452.61,228,454.61,274Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <circle id="Eye_2" data-name="Eye 2" cx="423.61" cy="249" r="16.5" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Middle_Small_Patch" data-name="Panel Middle Small Patch" d="M351.61,276c-23,0-25-1-25-1a335.73,335.73,0,0,1,3-54h22Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Left_Medium_Patch-2" data-name="Panel Left Medium Patch" d="M312.61,279c-31-1-48.24-3.52-48.24-3.52S267.61,223,273.61,197c21,1,42,1,42,1S314.61,213,312.61,279Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <polygon id="Square_Block_Bottom" data-name="Square Block Bottom" points="302.89 266.78 274.74 264.89 277.32 241.26 304.28 242.82 302.89 266.78" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-        <polygon id="Square_Block_Top" data-name="Square Block Top" points="306.23 231.42 278.04 230.29 279.99 206.6 306.98 207.43 306.23 231.42" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Left_Small_Patch" data-name="Panel Left Small Patch" d="M251.61,274l-16.24-1.52s3.34-54.77,11.24-78.48a103,103,0,0,0,13,1Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Panel_Left_Big_Patch" data-name="Panel Left Big Patch" d="M220.61,270c0,.48-46-5-77.45-15.57,0-1.46,2.45-49.43,15.45-75.43.17-.34,24,8,73,14C220.61,237,220.6,259.48,220.61,270Z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <polygon id="Eye_Patch" data-name="Eye Patch" points="340.61 115 330.61 211 452.61 212 452.61 200 466.61 200 458.61 122 442.61 122 438.61 115 340.61 115" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
-        <ellipse id="Eye" cx="381.61" cy="162" rx="30.46" ry="31.55" transform="translate(57.16 420.07) rotate(-61.5)" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Top_Head_Patch" data-name="Top Head Patch" d="M359.61,54l3,39s-28,2-132-8c0,0,41-33,77-39C307.61,46,339.61,54,359.61,54Z" fill="#02388d"/>
-        <path id="Top_Head_Patch-2" data-name="Top Head Patch" d="M377.61,54l-3,39s28,2,132-8c0,0-41-33-77-39C429.61,46,398.61,53,377.61,54Z" fill="#02388d"/>
-        <path id="Top_Head_Center" data-name="Top Head Center" d="M320.11,36.5s45.28,13.52,101,1C421.11,37.48,372.84,24,320.11,36.5Z" fill="#02388d"/>
-        <circle id="Collar_Base_Eye_Scope_1" data-name="Collar Base Eye Scope 1" cx="499.11" cy="237.5" r="33.5" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-        <circle id="Collar_Base_Eye_Scope_2" data-name="Collar Base Eye Scope 2" cx="507.61" cy="236" r="31" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
-        <circle id="Collar_Middle_Eye_Scope_1" data-name="Collar Middle Eye Scope 1" cx="514.11" cy="235.5" r="28.5" fill="#54585b" stroke="#000" stroke-miterlimit="10" opacity="0.74"/>
-        <circle id="Collar_Middle_Eye_Scope_2" data-name="Collar Middle Eye Scope 2" cx="520.23" cy="232.77" r="22.38" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
-        <ellipse id="Collar_Top_Eye_Scope_3" data-name="Collar Top Eye Scope 3" cx="520.11" cy="233.69" rx="16.5" ry="18.3" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Top_Eye_Scope_Collar" data-name="Top Eye Scope Collar" d="M396.05,32.38s35.06,6,58.81,15.33c0,0,1.75-7.71-7.25-12.71-18-6-20-7-40-10C397.61,24,396.48,32.76,396.05,32.38Z" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
-        <path id="Top_Eye_Scope" data-name="Top Eye Scope" d="M405.61,24l7-22s29-8,43,13l-7,20S433.61,28,405.61,24Z" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
+  <g class="Middle_Foot" data-name="Middle Foot" stroke="#000" stroke-miterlimit="10">
+    <g class="Foot_Connector" data-name="Foot Connector" fill="#e9e7f1">
+      <path class="Foot_Connector-2" data-name="Foot Connector" d="M191.61 825.68s172.83 41.68 354.92 0L512.61 887s-72.29 18.9-175 14.42a690.59 690.59 0 01-114-14.42z"/>
+      <g class="Outlines">
+        <path d="M204.11 829.48l27.5 52.52 26 5-16.5-51.1-37-6.42M252.61 837.43l17 51.57a605.26 605.26 0 0068 6l-7-51.82s-53-1.32-78-5.75M343.68 844l5.93 51h39l7.11-51.28-52.04.28M406.61 844l-6 51a680.13 680.13 0 0071-7l14.48-50.53s-63.4 5.53-79.48 5.53M496.11 836.12L481.61 886a104 104 0 0026-6l26-50.59s-21 4.84-37.5 6.71"/>
       </g>
     </g>
+    <path fill="#e9e7f1" d="M459.61 1079l-9-98h-19l-4-8-2-17-4-3h-3l-8-18h-5l-3-7h-6v-26.43h-57V928h-6l-3 7h-5l-8 18h-3l-4 3-2 17-4 8h-19l-9 98h7l-4 14 6 13h165l6-13-4-14h7z"/>
+    <path fill="none" d="M279.61 1093h177M452.61 1079l-47-135h-26v-16h-23v16h-27l-46 135"/>
+    <path fill="none" d="M355.61 956h25v31h-25v-31zM368.61 956v31M353.61 987h29v100h-29zM459.61 1079l-49-131v-13M276.61 1079l48-132 1-12M405.61 935v9M330.61 935l-1 9M367.45 902.11V928M339.61 928h57"/>
+    <path fill="none" d="M304.61 981l2 4h4.19M431.61 981l-1 3h-6.53"/>
+    <path fill="url(#linear-gradient)" d="M369.07 1106l-.46-109"/>
+    <path fill="#e9e7f1" d="M285.43 983l-6.82 6-3 68h3.02l6.8-74zM450.61 983l6.82 6 3 68h-3.02l-6.8-74z"/>
+  </g>
+  <g class="Left_Leg" data-name="Left Leg">
+    <g class="Foot_Exterior" data-name="Foot Exterior">
+      <path class="Foot_Front" data-name="Foot Front" d="M145.61 951l2 122s-3-4-7-2a4.05 4.05 0 00-2 5v46h-127l-8-13 46-156z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+      <path class="Foot_Outside_Toe" data-name="Foot Outside Toe" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10" d="M3.61 1109h135"/>
+      <g class="Foot_Side_Outline_1" data-name="Foot Side Outline 1">
+        <path class="Foot_Side" data-name="Foot Side" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10" d="M53.4 924.22l-5.79-.22-7 37-38 127 6.64 1.89L49.61 953l4-26-.21-2.78z"/>
+      </g>
+      <g class="Foot_Side_Outline_2" data-name="Foot Side Outline 2" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10">
+        <path d="M47.15 961h-6.54l-6.5 21.74-5.5-.74 10-46 7.21-2.52M22.48 1021.58l-7.87 8.42-14 46 5.02 1.93 16.85-56.35z"/>
+      </g>
+      <path class="Foot_Side_Ankle" data-name="Foot Side Ankle" d="M31.81 967.27L8.61 967s-7 6-6 40 1 57 1 57l11-34 8-8 11-39-5-1z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g class="Foot_Interior" data-name="Foot Interior" stroke="#000" stroke-miterlimit="10">
+      <g class="Ankle_Interior" data-name="Ankle Interior" fill="#e9e7f1">
+        <path class="Ankle_Interior_Outline" data-name="Ankle Interior Outline" d="M145.61 821.61s37-1.61 37 50.39v124s1 36.43-37 38.21z"/>
+        <path class="Foot_Inside_Toe" data-name="Foot Inside Toe" d="M138.61 1122h44l9-16h-24s-19-2-19-21-10-14.88-10-10.44z"/>
+        <path class="Foot_Inside_Interior" data-name="Foot Inside Interior" d="M191.61 1106l5-81h-26s-7 8-18 8v5s7 20 15 26 1 19-5 19-14.28-.22-14.14-6.61c0 0-2.86 29.61 19.14 29.61z"/>
+        <path d="M145.61 837.43s32 3.57 32 34.57h-32zM164.61 933h5v39h-24M145.61 992h21v-2h16M145.61 997.16h36.99M166.76 872l-.15 14h-21M164.12 886.5V933h-18.51"/>
+        <path d="M145.61 940h20v25h-20M166.61 990v-18"/>
+      </g>
+      <path class="Ankle_Locket" data-name="Ankle Locket" d="M76.61 1016c44 0 69-.5 69-.5s8-2.5 7 22.5c0 0 7 22 15 26s4 19-5 19-9.25-1-14-4c-.21-.14.87-7.84-5-8s-5 4-5 4l-61-1s-9-5 0-12l69-1-1-32.83-68-.17s-6.23-4.15-1-12z" fill="#501d20"/>
+    </g>
+    <g class="Shin" stroke="#000" stroke-miterlimit="10">
+      <path class="Shin_Side" data-name="Shin Side" d="M53.61 769s2 45 6 61l-3 3v13l-6 9v8s-9 11 2 19l-2 7 3 38H76l-1.4-46h-16v-15h16l-3-91h-3z" fill="#e9e7f1"/>
+      <path class="Shin_Front" data-name="Shin Front" fill="#e9e7f1" d="M71.99 775.05L74.61 866h-16v15h16l2 66h69V812.38l-7-3.38v-32.89l-66.62-1.06z"/>
+      <path class="Joint_Bottom" data-name="Joint Bottom" d="M74.61 884h-18l-1 3-5 2" fill="none"/>
+      <path class="Joint_Top" data-name="Joint Top" d="M74.29 856.3S55.61 850 50.61 863" fill="none"/>
+      <path class="Shin_Bottom" data-name="Shin Bottom" fill="#e9e7f1" d="M53.61 927l-4 26 96-2v-4h-70l.4-20h-22.4z"/>
+    </g>
+    <g class="Mid_Leg" data-name="Mid Leg" stroke="#000" stroke-miterlimit="10">
+      <path class="Base_Ring" data-name="Base Ring" d="M138.61 776.1l-70-1.1a86.9 86.9 0 01-14.52-5.54c-4.11-2.14-7.48-4.72-7.48-7.46v-8s2.78-11.51 21.89-12.76l.11 10.76h2v6l23 3h45v15.1" fill="#e9e7f1"/>
+      <path class="Lower_Leg_Divit" data-name="Lower Leg Divit" fill="#e9e7f1" d="M74.15 725h18.46v4h-18l-.46-4z"/>
+      <path class="Lower_Leg_Rectangle" data-name="Lower Leg Rectangle" fill="#e9e7f1" d="M74.61 726l-5 5 1 27 23 3-1-32h-18v-3z"/>
+      <path class="Upper_Leg_Rectangle_2" data-name="Upper Leg Rectangle 2" fill="#e9e7f1" d="M96.61 604h42v13h-42z"/>
+      <path class="Upper_Leg_Rectangle_1" data-name="Upper Leg Rectangle 1" fill="#e9e7f1" d="M94.61 580h44v24h-44z"/>
+      <path class="Upper_Leg_Line" data-name="Upper Leg Line" fill="#e9e7f1" d="M138.6 588.16H94.61"/>
+      <path class="Inner_Mid_Leg" data-name="Inner Mid Leg" d="M94.61 595h-3s1 152 2 166h45V617h-42v-13h-2z" fill="#e9e7f1"/>
+      <path class="Blue_SIde_Part" data-name="Blue SIde Part" d="M65.45 562.23L42.61 574l-1 5-5 4v4l-3 2s-1 13 6 15h4l3 4 7 1 3 5 12 1v6l-3 2v10h4v15l-4 1v6l2 1 1 96h1.78l-.78-21 5-5-.46-1h-2.54V595h-3l-3-27z" fill="#02388d"/>
+      <path class="Outer_Mid_Leg" data-name="Outer Mid Leg" fill="#e9e7f1" d="M65.61 568l3 27h3v130h21l-1-130h3v-15l43.99.29V568H65.61z"/>
+    </g>
+    <g class="Shoulder" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10">
+      <path class="Shoulder_Lego_2" data-name="Shoulder Lego 2" d="M65.61 434h-4v9h-3v18l4 3v10l-13 1v9h15.84l.16-50z"/>
+      <path class="Shoulder_Lego_1" data-name="Shoulder Lego 1" d="M65.61 484h-19l1 54h17.84l.16-54z"/>
+      <path class="Shoulder-2" data-name="Shoulder" d="M138.6 316.7l-70 .3s-4 71-3 117v134h73V316.7"/>
+    </g>
+  </g>
+  <g class="Right_Leg" data-name="Right Leg">
+    <g class="Foot_Exterior-2" data-name="Foot Exterior">
+      <path class="Foot_Front-2" data-name="Foot Front" d="M583.61 951l-2 122s3-4 7-2a4 4 0 012 5v46h127l8-13-46-156z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+      <path class="Foot_Outside_Toe-2" data-name="Foot Outside Toe" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10" d="M725.61 1109h-135"/>
+      <g class="Foot_Side_Outline_1-2" data-name="Foot Side Outline 1">
+        <path class="Foot_Side-2" data-name="Foot Side" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10" d="M675.83 924.22l5.78-.22 7 37 38 127-6.63 1.89L679.61 953l-4-26 .22-2.78z"/>
+      </g>
+      <g class="Foot_Side_Outline_2-2" data-name="Foot Side Outline 2" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10">
+        <path d="M682.08 961h6.53l6.51 21.74 5.49-.74-10-46-7.2-2.52M706.74 1021.58l7.87 8.42 14 46-5.01 1.93-16.86-56.35z"/>
+      </g>
+      <path class="Foot_Side_Ankle-2" data-name="Foot Side Ankle" d="M697.41 967.27l23.2-.27s7 6 6 40-1 57-1 57l-11-34-8-8-11-39 5-1z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+    </g>
+    <g class="Foot_Interior-2" data-name="Foot Interior" stroke="#000" stroke-miterlimit="10">
+      <g class="Ankle_Interior-2" data-name="Ankle Interior" fill="#e9e7f1">
+        <path class="Ankle_Interior_Outline-2" data-name="Ankle Interior Outline" d="M583.61 821.61s-37-1.61-37 50.39v124s-1 36.43 37 38.21z"/>
+        <path class="Foot_Inside_Toe-2" data-name="Foot Inside Toe" d="M590.61 1122h-44l-9-16h24s19-2 19-21 10-14.88 10-10.44z"/>
+        <path class="Foot_Inside_Interior-2" data-name="Foot Inside Interior" d="M537.61 1106l-5-81h26s7 8 18 8v5s-7 20-15 26-1 19 5 19 14.29-.22 14.15-6.61c0 0 2.85 29.61-19.15 29.61z"/>
+        <path d="M583.61 837.43s-32 3.57-32 34.57h32zM564.61 933h-5v39h24M583.61 992h-21v-2h-16M583.61 997.16h-36.98M562.47 872l.14 14h21M565.11 886.5V933h18.5"/>
+        <path d="M583.61 940h-20v25h20M562.61 990v-18"/>
+      </g>
+      <path class="Ankle_Locket-2" data-name="Ankle Locket" d="M652.61 1016c-44 0-69-.5-69-.5s-8-2.5-7 22.5c0 0-7 22-15 26s-4 19 5 19 9.25-1 14-4c.22-.14-.87-7.84 5-8s5 4 5 4l61-1s9-5 0-12l-69-1 1-32.83 68-.17s6.24-4.15 1-12z" fill="#501d20"/>
+    </g>
+    <g class="Shin-2" data-name="Shin" stroke="#000" stroke-miterlimit="10">
+      <path class="Shin_Side-2" data-name="Shin Side" d="M675.61 769s-2 45-6 61l3 3v13l6 9v8s9 11-2 19l2 7-3 38h-22.39l1.39-46h16v-15h-16l3-91h3z" fill="#e9e7f1"/>
+      <path class="Shin_Front-2" data-name="Shin Front" fill="#e9e7f1" d="M657.23 775.05L654.61 866h16v15h-16l-2 66h-69V812.38l7-3.38v-32.89l66.62-1.06z"/>
+      <path class="Joint_Bottom-2" data-name="Joint Bottom" d="M654.61 884h18l1 3 5 2" fill="none"/>
+      <path class="Joint_Top-2" data-name="Joint Top" d="M654.93 856.3s18.68-6.3 23.68 6.7" fill="none"/>
+      <path class="Shin_Bottom-2" data-name="Shin Bottom" fill="#e9e7f1" d="M675.61 927l4 26-96-2v-4h70l-.39-20h22.39z"/>
+    </g>
+    <g class="Mid_Leg-2" data-name="Mid Leg" stroke="#000" stroke-miterlimit="10">
+      <path class="Base_Ring-2" data-name="Base Ring" d="M590.61 776.1l70-1.1a86.85 86.85 0 0014.53-5.54c4.1-2.14 7.47-4.72 7.47-7.46v-8s-2.77-11.51-21.88-12.76l-.12 10.76h-2v6l-23 3h-45v15.1" fill="#e9e7f1"/>
+      <path class="Lower_Leg_Divit-2" data-name="Lower Leg Divit" fill="#e9e7f1" d="M655.08 725h-18.47v4h18l.47-4z"/>
+      <path class="Lower_Leg_Rectangle-2" data-name="Lower Leg Rectangle" fill="#e9e7f1" d="M654.61 726l5 5-1 27-23 3 1-32h18v-3z"/>
+      <path class="Upper_Leg_Rectangle_2-2" data-name="Upper Leg Rectangle 2" fill="#e9e7f1" transform="rotate(180 611.615 610.495)" d="M590.61 604h42v13h-42z"/>
+      <path class="Upper_Leg_Rectangle_1-2" data-name="Upper Leg Rectangle 1" fill="#e9e7f1" transform="rotate(180 612.615 591.995)" d="M590.61 580h44v24h-44z"/>
+      <path class="Upper_Leg_Line-2" data-name="Upper Leg Line" fill="#e9e7f1" d="M590.63 588.16h43.98"/>
+      <path class="Inner_Mid_Leg-2" data-name="Inner Mid Leg" d="M634.61 595h3s-1 152-2 166h-45V617h42v-13h2z" fill="#e9e7f1"/>
+      <path class="Blue_SIde_Part-2" data-name="Blue SIde Part" d="M663.77 562.23L686.61 574l1 5 5 4v4l3 2s1 13-6 15h-4l-3 4-7 1-3 5-12 1v6l3 2v10h-4v15l4 1v6l-2 1-1 96h-1.77l.77-21-5-5 .47-1h2.53V595h3l3-27z" fill="#02388d"/>
+      <path class="Outer_Mid_Leg-2" data-name="Outer Mid Leg" fill="#e9e7f1" d="M663.61 568l-3 27h-3v130h-21l1-130h-3v-15l-43.98.29V568h72.98z"/>
+    </g>
+    <g class="Shoulder-3" data-name="Shoulder" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10">
+      <path class="Shoulder_Lego_2-2" data-name="Shoulder Lego 2" d="M663.61 434h4v9h3v18l-4 3v10l13 1v9h-15.84l-.16-50z"/>
+      <path class="Shoulder_Lego_1-2" data-name="Shoulder Lego 1" d="M663.61 484h19l-1 54h-17.84l-.16-54z"/>
+      <path class="Shoulder-4" data-name="Shoulder" d="M590.63 316.7V568h73V434c1-46-3-117-3-117z"/>
+    </g>
+  </g>
+  <g class="Body">
+    <path class="Body_Core" data-name="Body Core" d="M597.61 316c-249 59-459-3-459-3v496s60 35 230 35 221-34 221-34l8-490.5V316" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+    <g class="Bottom_Row" data-name="Bottom Row" stroke="#000" stroke-miterlimit="10">
+      <g class="Bottom_Left_Rectangle_1" data-name="Bottom Left Rectangle 1">
+        <path class="Bottom_Far_Left" data-name="Bottom Far Left" d="M159.61 682l45 12v119s-25-5-45-14z" fill="#e9e7f1"/>
+        <g class="Inside" fill="#b7b8b4">
+          <path d="M198.61 708v67M190.61 706v66M180.61 703.5v66M172.61 700.5v66M164.61 698.5v66M163.61 777l36 9v14l-36-10v-13z"/>
+        </g>
+      </g>
+      <g class="Bottom_Left_Long_Rectangle" data-name="Bottom Left Long Rectangle">
+        <path class="Bottom_Left_Box" data-name="Bottom Left Box" d="M220.61 738s51 5 88 8v78s-36-1-88-8z" fill="#e9e7f1"/>
+        <path class="Notch_Inset" data-name="Notch Inset" fill="none" stroke-width=".5" d="M234.61 800.5V751l38 4v50"/>
+      </g>
+      <g class="Bottom_Middle_Box" data-name="Bottom Middle Box">
+        <path class="Bottom_Middle_Box-2" data-name="Bottom Middle Box" fill="#02388d" d="M329.61 748h78v77h-78z"/>
+        <circle class="Big_Circle" data-name="Big Circle" cx="368.61" cy="787" r="36" fill="#fefefe"/>
+        <circle class="Small_Circle" data-name="Small Circle" cx="368.61" cy="787" r="13.5" fill="#fefefe"/>
+      </g>
+      <path class="Bottom_Right_Rectangle_1" data-name="Bottom Right Rectangle 1" fill="none" d="M466.61 746l-34 2v77l34-3v-76z"/>
+      <path class="Bottom_Right_Rectangle_2" data-name="Bottom Right Rectangle 2" fill="none" d="M484.61 820l-.5-75.5 22-2v74l-21.5 3.5z"/>
+      <ellipse class="Bottom_Right_Rectangle_3" data-name="Bottom Right Rectangle 3" cx="523.11" cy="777" rx="51.67" ry="13.42" transform="rotate(-89.34 523.16 777.005)" fill="none"/>
+      <g class="Bottom_Right_Octagon" data-name="Bottom Right Octagon">
+        <path class="Bottom_Right_Octogon" data-name="Bottom Right Octogon" d="M551.61 736l15-4 9 16v32l-9 22-14 5-13-17-1-32z" fill="#02388d"/>
+        <ellipse cx="560.61" cy="770" rx="12" ry="7" transform="rotate(-89 560.615 769.998)" fill="#b7b8b4"/>
+      </g>
+    </g>
+    <g class="Center_Bottom_Outlines" data-name="Center Bottom Outlines" fill="none" stroke="#000" stroke-miterlimit="10">
+      <path class="Mid_Center_Far_Right" data-name="Mid Center Far Right" d="M533.11 700.5l37-8v21l-37 9v-22z"/>
+      <path class="Mid_Center_Right" data-name="Mid Center Right" d="M450.11 707.5l66-5v23l-66.5 6.5.5-24.5z"/>
+      <ellipse class="Mid_Center_Outline" data-name="Mid Center Outline" cx="368.36" cy="720.75" rx="61.17" ry="17.68" transform="rotate(-.36 370.151 723.731)"/>
+      <ellipse class="Mid_Left_Outline" data-name="Mid Left Outline" cx="268.61" cy="719" rx="16.2" ry="28.4" transform="rotate(-83.63 268.639 719.013)"/>
+    </g>
+    <g class="Middle_Blue_Box" data-name="Middle Blue Box">
+      <path class="Core_Middle_Rectangle" data-name="Core Middle Rectangle" d="M320.61 514s74 2 96 0v179h-96z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+      <rect class="Core_Middle_Rounded_Square" data-name="Core Middle Rounded Square" x="330.61" y="610" width="79" height="79" rx="24.25" fill="#a09fa3"/>
+      <rect class="Core_Middle_Rounded_Square-2" data-name="Core Middle Rounded Square" x="330.61" y="522" width="79" height="79" rx="24.25" fill="#a09fa3"/>
+    </g>
+    <g class="Middle_Left_Outlines" data-name="Middle Left Outlines" stroke="#000" stroke-miterlimit="10">
+      <g class="Middle_Left_Rectangle" data-name="Middle Left Rectangle" fill="none">
+        <path class="Left_Panel_Outside" data-name="Left Panel Outside" d="M305.61 588l-.5 104.5s-15.5.5-43-2v-104s10.5.5 43.5 1.5z"/>
+        <path class="Left_Panel_Outside-2" data-name="Left Panel Outside" d="M299.11 596.73l-.35 85.73s-11 .41-30.6-1.64V595.5s7.48.41 30.95 1.23z"/>
+      </g>
+      <g class="Left_6_Outlines" data-name="Left 6 Outlines" fill="#e9e7f1">
+        <path d="M220.61 677l31 3v9l-31-3zM220.61 658.2l31 3v9l-31-3zM220.61 620.6l31 3v9l-31-3zM220.61 639.4l31 3v9l-31-3zM220.61 601.8l31 3v9l-31-3zM220.61 583l31 3v9l-31-3z"/>
+      </g>
+      <path class="Top_Panel" data-name="Top Panel" d="M304.61 514s-32 0-84-6v54s31 5 84 6v-54" fill="none"/>
+    </g>
+    <g class="Middle_Right_Outlines" data-name="Middle Right Outlines" fill="none" stroke="#000" stroke-miterlimit="10">
+      <path class="Right_Panel_Inside" data-name="Right Panel Inside" d="M450.61 531s23-1 56-2v139s-14 4-56 5z"/>
+      <path class="Right_Panel_Outside" data-name="Right Panel Outside" d="M432.61 514s31 1 84-3v172s-8 5-84 8z"/>
+    </g>
+    <g class="Right_Side_Outline" data-name="Right Side Outline" fill="none" stroke="#000" stroke-miterlimit="10">
+      <path class="Right_Outline_Outside" data-name="Right Outline Outside" d="M535.11 365.5l38-7v311l-38 10z"/>
+      <path class="Right_Outline_Inside" data-name="Right Outline Inside" d="M543.61 375.5l23-4V662l-23 6.5v-293"/>
+    </g>
+    <g class="Left_Side_Outline" data-name="Left Side Outline" fill="none" stroke="#000" stroke-miterlimit="10">
+      <path class="Right_Outline_Outside-2" data-name="Right Outline Outside" d="M203.11 365.5l-38-7v311l38 10z"/>
+      <path class="Right_Outline_Inside-2" data-name="Right Outline Inside" d="M194.61 375.5l-23-4V662l23 6.5v-293"/>
+    </g>
+    <g class="Chest_Shapes" data-name="Chest Shapes" stroke="#000" stroke-miterlimit="10">
+      <g class="Core_Top_Panel_Outlines" data-name="Core Top Panel Outlines" fill="none">
+        <path d="M517.61 331.5l-1 162.5s-159 17-296-2V331.5M516.61 427c-74 4-141 13-296-1M516.61 363c-74 4-141 13-296-1"/>
+      </g>
+      <path class="Core_Bottom_Panel" data-name="Core Bottom Panel" fill="#02388d" d="M232.61 451v22h30l29 11 101 2v-9l51 2 7 7 54-14v-21l-54-6-6 7-52 4v-9l-104-2-26 8-30-2z"/>
+      <path class="Core_Middle_Panel" data-name="Core Middle Panel" fill="#02388d" d="M503.61 385v22h-30l-29 11-101 2v-9l-51 2-7 7-54-14v-21l54-6 6 7 52 4v-9l104-2 26 8 30-2z"/>
+      <path class="Core_Top_Panel" data-name="Core Top Panel" d="M503.61 340s-83 16-272 0v14s166 19 272 0z" fill="#02388d"/>
+    </g>
+  </g>
+  <g class="Head">
+    <path class="Gray_Collar" data-name="Gray Collar" d="M597.61 316c-210.82 51.41-400 15-459-3v-27c0-.77 100.11 22.84 225 25 126.94 2.18 234.5-25.56 234.5-23.91 0 13.13-.45 26.91-.5 28.91z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Blue_Collar" data-name="Blue Collar" d="M594 287.46c-207.6 47-394 12.06-450.88-1 0-1.46-.55-8.43-.55-20.43 0-.7 98 23 221 25 125 2 231-25.52 231-24 .04 11.97-.48 18.63-.57 20.43z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Clean_Dome" data-name="Clean Dome" d="M598.61 261c0 1.85 0 3.69-.07 5.53-211.75 47.92-401.89 12.3-459.88-1v-4.48c0-127 103-230 230-230S598.61 134 598.61 261z" fill="#e9e7f1" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Right_Small_Patch_2" data-name="Panel Right Small Patch 2" d="M573.61 262l16-3s-3-49-13-74l-17 3s13 45 14 74z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Right_Small_Patch_1" data-name="Panel Right Small Patch 1" d="M553.11 189.5c7 25 13 59 12 74 0 0-19 4-28 5 0 0-5-53-12-76z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Left_Medium_Patch" data-name="Panel Left Medium Patch" d="M454.61 274c-56 3-94 2-94 2v-55h92s0 7 2 53z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <circle class="Eye_2" data-name="Eye 2" cx="423.61" cy="249" r="16.5" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Middle_Small_Patch" data-name="Panel Middle Small Patch" d="M351.61 276c-23 0-25-1-25-1a335.73 335.73 0 013-54h22z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Left_Medium_Patch-2" data-name="Panel Left Medium Patch" d="M312.61 279c-31-1-48.24-3.52-48.24-3.52s3.24-52.48 9.24-78.48c21 1 42 1 42 1s-1 15-3 81z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Square_Block_Bottom" data-name="Square Block Bottom" fill="#fefefe" stroke="#000" stroke-miterlimit="10" d="M302.89 266.78l-28.15-1.89 2.58-23.63 26.96 1.56-1.39 23.96z"/>
+    <path class="Square_Block_Top" data-name="Square Block Top" fill="#fefefe" stroke="#000" stroke-miterlimit="10" d="M306.23 231.42l-28.19-1.13 1.95-23.69 26.99.83-.75 23.99z"/>
+    <path class="Panel_Left_Small_Patch" data-name="Panel Left Small Patch" d="M251.61 274l-16.24-1.52s3.34-54.77 11.24-78.48a103 103 0 0013 1z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Panel_Left_Big_Patch" data-name="Panel Left Big Patch" d="M220.61 270c0 .48-46-5-77.45-15.57 0-1.46 2.45-49.43 15.45-75.43.17-.34 24 8 73 14-11 44-11.01 66.48-11 77z" fill="#02388d" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Eye_Patch" data-name="Eye Patch" fill="#02388d" stroke="#000" stroke-miterlimit="10" d="M340.61 115l-10 96 122 1v-12h14l-8-78h-16l-4-7h-98z"/>
+    <ellipse class="Eye" cx="381.61" cy="162" rx="30.46" ry="31.55" transform="rotate(-61.5 381.617 161.996)" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Top_Head_Patch" data-name="Top Head Patch" d="M359.61 54l3 39s-28 2-132-8c0 0 41-33 77-39 0 0 32 8 52 8z" fill="#02388d"/>
+    <path class="Top_Head_Patch-2" data-name="Top Head Patch" d="M377.61 54l-3 39s28 2 132-8c0 0-41-33-77-39 0 0-31 7-52 8z" fill="#02388d"/>
+    <path class="Top_Head_Center" data-name="Top Head Center" d="M320.11 36.5s45.28 13.52 101 1c0-.02-48.27-13.5-101-1z" fill="#02388d"/>
+    <circle class="Collar_Base_Eye_Scope_1" data-name="Collar Base Eye Scope 1" cx="499.11" cy="237.5" r="33.5" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
+    <circle class="Collar_Base_Eye_Scope_2" data-name="Collar Base Eye Scope 2" cx="507.61" cy="236" r="31" fill="#fefefe" stroke="#000" stroke-miterlimit="10"/>
+    <circle class="Collar_Middle_Eye_Scope_1" data-name="Collar Middle Eye Scope 1" cx="514.11" cy="235.5" r="28.5" fill="#54585b" stroke="#000" stroke-miterlimit="10" opacity=".74"/>
+    <circle class="Collar_Middle_Eye_Scope_2" data-name="Collar Middle Eye Scope 2" cx="520.23" cy="232.77" r="22.38" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
+    <ellipse class="Collar_Top_Eye_Scope_3" data-name="Collar Top Eye Scope 3" cx="520.11" cy="233.69" rx="16.5" ry="18.3" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Top_Eye_Scope_Collar" data-name="Top Eye Scope Collar" d="M396.05 32.38s35.06 6 58.81 15.33c0 0 1.75-7.71-7.25-12.71-18-6-20-7-40-10-10-1-11.13 7.76-11.56 7.38z" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
+    <path class="Top_Eye_Scope" data-name="Top Eye Scope" d="M405.61 24l7-22s29-8 43 13l-7 20s-15-7-43-11z" fill="#54585b" stroke="#000" stroke-miterlimit="10"/>
   </g>
 </svg>
