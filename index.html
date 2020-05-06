@@ -326,33 +326,36 @@
 
     <audio src="audio/sfx-1.wav"></audio>
   </main>
-  <script>
-    const button = document.querySelector('.artwork');
-
-    function playSound() {
-      const audio = document.querySelector('audio');
-      if (!audio) return;
-      audio.volume = 1;
-      audio.currentTime = 0;
-      audio.play();
-    }
-
-    if (document.documentElement.clienwidth <= 600) {
-      mobileButton.on("press tap", function(event) {
-        console.log(event);
-        playSound();
-      });
-    } else {
-      button.addEventListener('click', function(event) {
-        playSound();
-      });
-    }
-
-    window.addEventListener('resize', () => {
-      let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
-    });
-  </script>
 </body>
+<script src="js/hammer.min.js"></script>
+<script>
+  const button = document.querySelector('.artwork');
+  const mobileButton = new Hammer(button);
+
+  function playSound() {
+    const audio = document.querySelector('audio');
+    if (!audio) return;
+    audio.volume = 1;
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  if (document.documentElement.clienwidth <= 600) {
+    mobileButton.on("press tap", function(event) {
+      console.log(event);
+      playSound();
+    });
+  } else {
+    button.addEventListener('click', function(event) {
+      playSound();
+    });
+  }
+
+  window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+</script>
+<script src="https://cdn.usefathom.com/3.js" site="DEMGRZPV"></script>
 
 </html>
