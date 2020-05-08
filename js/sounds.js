@@ -2,7 +2,8 @@ export const soundEffects = [
   {
     sound: new Howl({
       src: ['./audio/sfx-1.mp3','./audio/sfx-1.wav'],
-      volume: 1
+      volume: 1,
+      html5: true
     })
   },
   {
