@@ -86,3 +86,45 @@ export function fartThree() {
       duration: .25
     }, "+=.1")
 }
+
+export function fartFour() {
+  const timeline = gsap.timeline();
+
+  timeline
+    .to('.artwork__svg', {
+      y: -100,
+      repeat: 21,
+      delay: .2,
+      duration: .1
+    }, 0)
+    .to('.artwork__svg', {
+      y: 0,
+      x: 0,
+      duration: .1
+    }, "+=.1")
+}
+
+
+export function fartFive() {
+  const timeline = gsap.timeline();
+
+  timeline
+    .to('.artwork__svg', {
+      x: 15,
+      yoyo: true,
+      repeat: 50,
+      delay: .2,
+      duration: .05
+    }, .1)
+    .to('.artwork__svg', {
+      y: -50,
+      ease: 'bounce',
+      duration: .25
+    }, 2)
+    .to('.artwork__svg', {
+      y: 0,
+      x: 0,
+      ease: 'power1.out',
+      duration: .2
+    }, "+=.1")
+}

@@ -59,9 +59,24 @@
 
     .artwork {
       width: 55%;
+
+      transform: translate3d(0, 200%, 0);
+      animation-name: enter;
+      animation-duration: .25s;
+      animation-delay: .8s;
+      animation-timing-function: ease-out;
+      animation-fill-mode: forwards;
     }
 
-    /* TODO: Site Enter Animation */
+    @keyframes enter {
+      0% {
+        transform: translate3d(0, 100%, 0);
+      }
+
+      100% {
+        transform: translate3d(0, 0%, 0);
+      }
+    }
 
     @media (min-width: 42rem) {
       .artwork {

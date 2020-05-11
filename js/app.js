@@ -1,10 +1,23 @@
 import {
   fartOne,
   fartTwo,
-  fartThree
+  fartThree,
+  fartFour,
+  fartFive
 } from './animations.js';
 
 import {soundEffects} from './sounds.js';
+
+var sound = new Howl({
+  src: ['./audio/sfx-0.mp3','./audio/sfx-0.wav'],
+  onplayerror: function() {
+    sound.once('unlock', function() {
+      sound.play();
+    });
+  }
+});
+
+sound.play();
 
 const button = document.querySelector('.artwork');
 const mobileButton = new Hammer(button);
@@ -14,16 +27,14 @@ let index = 0;
 function playSound() {
   console.log('INDEX:', index);
 
-  // if (soundEffects[index].sound.playing()) {
-  //   soundEffects[index].sound.stop();
-  // }
-  //
-  // ++index;
-  //
   if (index === soundEffects.length) {
     index = 0;
   }
-  // soundEffects[index].sound.play();
+
+  // Stop track and play next without overlap
+  // if (soundEffects[index].sound.playing()) {
+  //   soundEffects[index].sound.stop();
+  // }
 
   soundEffects[index].sound.play();
   ++index;
