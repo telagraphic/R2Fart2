@@ -1,130 +1,837 @@
-export function fartOne() {
-  const timeline = gsap.timeline();
+const animationOne = gsap.timeline();
+animationOne
+  .add("animationOne")
+  .to('.artwork__svg', {
+    y: -50,
+    ease: 'bounce',
+    duration: .25
+  }, 0)
+  .to('.artwork__svg', {
+    y: -75,
+    rotation: '15',
+    yoyo: true,
+    repeat: 10,
+    ease: 'bounce',
+    duration: .05
+  }, .5)
+  .to('.artwork__svg', {
+    y: -75,
+    rotation: '-15',
+    ease: 'bounce',
+    yoyo: true,
+    repeat: 10,
+    duration: .05,
+  }, .5)
+  .to('.artwork__svg', {
+    y: 0,
+    rotation: '-360',
+    ease: 'bounce',
+    yoyo: true,
+    repeat: 10,
+    duration: .05,
+  }, ">")
+  .to('.artwork__svg', {
+    y: 0,
+    x: 0,
+    ease: 'sine'
+  });
 
-  timeline
+
+const animationTwo = gsap.timeline();
+animationTwo
+  .add("animationTwo")
+  .to('.artwork__svg', {
+    y: -100,
+    ease: 'sine',
+    duration: .25
+  }, 0)
+  .to('.artwork__svg', {
+    x: 5,
+    rotate: 5,
+    yoyo: true,
+    repeat: 10,
+    duration: .05
+  }, 0)
+  .to('.artwork__svg', {
+    x: -5,
+    rotate: -5,
+    yoyo: true,
+    repeat: 10,
+    duration: .05
+  }, 0)
+  .to('.artwork__svg', {
+    ease: 'bounce',
+    rotate: 90,
+    duration: .1
+  }, ">")
+  .to('.artwork__svg', {
+    x: 50,
+    rotate: 110,
+    yoyo: true,
+    repeat: 15,
+    duration: .05
+  }, ">")
+  .to('.artwork__svg', {
+    y: 0,
+    x: 0,
+    rotate: 0,
+    ease: 'bounce',
+    duration: .25
+  }, "+=.1")
+
+const animationThree = gsap.timeline();
+animationThree
+  .add("animationThree")
+  .to('.Right_Leg', {
+    y: 45,
+    yoyo: true,
+    repeat: 50,
+    duration: .03
+  }, .1)
+  .to('.Right_Leg', {
+    y: 0,
+    duration: .25
+  }, ">")
+  .to('.Left_Leg', {
+    y: -34,
+    yoyo: true,
+    repeat: 50,
+    duration: .03
+  }, .15)
+  .to('.Left_Leg', {
+    y: 0,
+    duration: .35
+  }, ">")
+  .to('.Head', {
+    y: -34,
+    x: 50,
+    yoyo: true,
+    repeat: 50,
+    duration: .02
+  }, .8)
+  .to('.Head', {
+    y: 0,
+    x: 0,
+    duration: .01
+  }, ">")
+
+const animationFour = gsap.timeline();
+animationFour
+  .add("animationFour")
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .75
+  }, .1)
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -25,
+    rotate: -5,
+    yoyo: true,
+    repeat: 45,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: 5,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, .5)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 0,
+    rotate: 0,
+    ease: 'expo',
+    duration: .1
+  }, 1)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 50,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 1.7)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 1)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .5
+  }, 1.1)
+  .to('.Head', {
+    x: -35,
+    yoyo: true,
+    repeat: 40,
+    ease: 'expo',
+    duration: .03
+  }, 1.1)
+  .to(['.Head', '.Body', '.Middle_Foot', '.Right_Leg', '.Left_Leg'], {
+    y: 0,
+    x: 0,
+    rotate: 0
+  }, ">")
+
+const animationFive = gsap.timeline();
+animationFive
+  .add("animationFive")
+  .to(['.Head', '.Right_Leg', '.Left_Leg'], {
+    y: -75,
+    ease: 'elastic',
+    duration: 1
+  }, .1)
+  .to(['.Body', '.Middle_Foot'], {
+    y: 50,
+    duration: 1,
+    ease: 'elastic'
+  }, .2)
+  .to('.Middle_Foot', {
+    y: -15,
+    rotate: 1,
+    yoyo: true,
+    repeat: 40,
+    duration: .05,
+    ease: 'elastic'
+  }, .3)
+  .to('.Head', {
+    y: -55,
+    yoyo: true,
+    transformOrigin: "center center",
+    scaleX: 1.2,
+    scaleY: 1.2,
+    repeat: 40,
+    duration: .04,
+    ease: 'elastic'
+  }, .3)
+  .to('.Head', {
+    y: -25,
+    yoyo: true,
+    scaleX: 1,
+    scaleY: 1,
+    repeat: 40,
+    duration: .04,
+    ease: 'elastic'
+  }, .5)
+  .to('.Left_Leg', {
+    x: -25,
+    yoyo: true,
+    repeat: 40,
+    duration: .04,
+    ease: 'elastic'
+  }, .5)
+  .to('.Left_Leg', {
+    rotate: 5,
+    yoyo: true,
+    repeat: 40,
+    duration: .03,
+    ease: 'bounce'
+  }, .75)
+  .to('.Left_Leg', {
+    rotate: 0,
+    ease: 'elastic'
+  }, ">")
+  .to('.Right_Leg', {
+    x: 45,
+    yoyo: true,
+    repeat: 40,
+    duration: .04,
+    ease: 'elastic'
+  }, .5)
+  .to('.Right_Leg', {
+    rotate: -5,
+    yoyo: true,
+    repeat: 40,
+    duration: .02,
+    ease: 'bounce'
+  }, .75)
+  .to('.Right_Leg', {
+    rotate: 0,
+    ease: 'elastic'
+  }, ">")
+  .to('.Body', {
+    y: -25,
+    yoyo: true,
+    transformOrigin: "center center",
+    scaleX: 1.1,
+    scaleY: 1.2,
+    repeat: 40,
+    duration: .04,
+    ease: 'elastic'
+  }, .3)
+  .to(['.Head', '.Body', '.Middle_Foot', '.Right_Leg', '.Left_Leg'], {
+    y: 0,
+    x: 0,
+    scaleX: 1,
+    scaleY: 1,
+    ease: 'elastic',
+    duration: 1
+  }, ">")
+
+const animationSix = gsap.timeline();
+animationSix
+  .add("animationSix")
+  .to('.Head', {
+    y: -50,
+    ease: 'elastic',
+    duration: 2
+  }, .1)
+  .to('.Head', {
+    y: 0,
+    ease: "bounce",
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    x: 50,
+    y: 0,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 2.8)
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -25,
+    rotate: -5,
+    yoyo: true,
+    repeat: 45,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 50,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 1.5)
+  .to(['.Head', '.Left_Leg', '.Right_Leg', '.Middle_Foot', '.Body'], {
+    y: 0,
+    x: 0,
+    rotate: 0
+  }, ">")
+
+const animationSeven = gsap.timeline();
+animationSeven
+  .add("animationSeven")
+  .to('.Head', {
+    x: -50,
+    y: 0,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 2.8)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 50,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 0)
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    scaleX: 1.1,
+    scaleY: 1.1,
+    transformOrigin: "center center",
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -21,
+    rotate: -5,
+    scaleX: 1.1,
+    scaleY: 1.1,
+    transformOrigin: "center center",
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 50,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 1.5)
+  .to(['.Head', '.Left_Leg', '.Right_Leg', '.Middle_Foot', '.Body'], {
+    y: 0,
+    x: 0,
+    scaleX: 1,
+    scaleY: 1,
+    rotate: 0
+  }, ">")
+
+const animationEight = gsap.timeline();
+animationEight
+  .add("animationEight")
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .75
+  }, .1)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 1)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .25
+  }, 1.1)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 1.6)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .25
+  }, 1.7)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 1.75)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .25
+  }, 2)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 2.1)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .05
+  }, 2.3)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 2.4)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    duration: .05
+  }, 3)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: -70,
+    ease: 'expo',
+    duration: .05
+  }, 3.2)
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: -90,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: -100,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: -100,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -25,
+    rotate: -5,
+    yoyo: true,
+    repeat: 45,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Body', {
+    x: 10,
+    scaleX: 1.1,
+    scaleY: 1.1,
+    transformOrigin: "center center",
+    rotate: -1,
+    yoyo: true,
+    repeat: 35,
+    duration: .03
+  }, 2.8)
+  .to('.Body', {
+    x: 0,
+    y: 0,
+    rotate: 0,
+    scaleX: 1,
+    scaleY: 1,
+    transformOrigin: "center center",
+    duration: .15
+  }, 2.4)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: 5,
+    yoyo: true,
+    repeat: 45,
+    duration: .03
+  }, 0)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 0,
+    rotate: 0,
+    ease: 'expo',
+    duration: .1
+  }, 1)
+  .to('.Middle_Foot', {
+    y: 0,
+    x: 50,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 1.7)
+  .to('.Middle_Foot', {
+    y: 100,
+    yoyo: true,
+    repeat: 15,
+    ease: 'expo',
+    duration: .03
+  }, 3.2)
+  .to(['.Head', '.Left_Leg', '.Right_Leg', '.Middle_Foot', '.Body'], {
+    y: 0,
+    x: 0,
+    rotate: 0
+  })
+
+const animationNine = gsap.timeline();
+animationNine
+  .add("animationNine")
+  .to('.Head', {
+    y: 0,
+    ease: 'bounce',
+    duration: .05
+  }, 1)
+  .to('.Head', {
+    y: -50,
+    ease: 'bounce',
+    scaleX: 1.1,
+    scaleY: 1.1,
+    transformOrigin: "center center",
+    duration: .25
+  }, .75)
+  .to('.Head', {
+    y: 0,
+    scaleX: 1,
+    scaleY: 1,
+    ease: 'bounce',
+    duration: .05
+  }, ">")
+  .to('.Head', {
+    y: -50,
+    ease: 'bounce',
+    scaleX: 1.2,
+    scaleY: 1.2,
+    transformOrigin: "center center",
+    duration: .25
+  }, ">")
+  .to('.Head', {
+    y: 0,
+    scaleX: 1,
+    scaleY: 1,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -25,
+    rotate: -5,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to(['.Left_Leg', '.Right_Leg'], {
+    x: 0,
+    rotate: 0,
+    duration: .03
+  }, 1)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: 5,
+    yoyo: true,
+    repeat: 30,
+    duration: .03
+  }, .5)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: -15,
+    yoyo: true,
+    repeat: 30,
+    duration: .03
+  }, 1)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .02
+  }, 1)
+  .to(['.Head', '.Left_Leg', '.Right_Leg', '.Middle_Foot', '.Body'], {
+    y: 0,
+    x: 0,
+    rotate: 0
+  })
+
+const animationTen = gsap.timeline();
+animationTen
+  .add("animationTen")
+  .to('.Head', {
+    y: 0,
+    ease: 'expo',
+    duration: .05
+  }, 1)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    scaleX: 1.1,
+    scaleY: 1.1,
+    transformOrigin: "center center",
+    duration: .25
+  }, 1.35)
+  .to('.Head', {
+    y: 0,
+    scaleX: 1,
+    scaleY: 1,
+    ease: 'expo',
+    duration: .05
+  }, 1.65)
+  .to('.Head', {
+    y: -50,
+    ease: 'expo',
+    scaleX: .9,
+    scaleY: .9,
+    transformOrigin: "center center",
+    duration: .25
+  }, 1.8)
+  .to('.Head', {
+    y: 0,
+    scaleX: 1,
+    scaleY: 1,
+    ease: 'expo',
+    duration: .05
+  }, ">")
+  .to('.Left_Leg', {
+    x: 21,
+    rotate: 5,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to('.Right_Leg', {
+    x: -25,
+    rotate: -5,
+    ease: 'bounce',
+    duration: .03
+  }, 0)
+  .to(['.Left_Leg', '.Right_Leg'], {
+    x: 0,
+    rotate: 0,
+    duration: .03
+  }, 1)
+  .to('.Left_Leg', {
+    x: 28,
+    rotate: -5,
+    ease: 'bounce',
+    duration: .03
+  }, 2)
+  .to('.Right_Leg', {
+    x: -22,
+    rotate: 5,
+    ease: 'bounce',
+    duration: .03
+  }, 2)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: 5,
+    yoyo: true,
+    repeat: 30,
+    duration: .03
+  }, .5)
+  .to('.Middle_Foot', {
+    y: 5,
+    rotate: -25,
+    yoyo: true,
+    repeat: 40,
+    duration: .01
+  }, 2)
+  .to('.Body', {
+    x: 5,
+    rotate: -1,
+    yoyo: true,
+    repeat: 45,
+    duration: .02
+  }, 1)
+  .to(['.Head', '.Left_Leg', '.Right_Leg', '.Middle_Foot', '.Body'], {
+    y: 0,
+    x: 0,
+    rotate: 0
+  })
+
+  const animationEleven = gsap.timeline();
+  animationEleven
+    .add("animationEleven")
     .to('.artwork__svg', {
       y: -50,
       ease: 'bounce',
-      delay: .2,
       duration: .25
-    })
+    }, 0)
     .to('.artwork__svg', {
       y: -75,
       rotation: '15',
+      yoyo: true,
+      repeat: 10,
       ease: 'bounce',
-      duration: .5
-    })
+      duration: .05
+    }, .5)
     .to('.artwork__svg', {
       y: -75,
       rotation: '-15',
       ease: 'bounce',
-      duration: .5
-    })
+      yoyo: true,
+      repeat: 10,
+      duration: .05,
+    }, .5)
     .to('.artwork__svg', {
       y: 0,
-      rotation: 0,
-      ease: 'sine',
-      duration: .5
+      rotation: '-360',
+      ease: 'bounce',
+      yoyo: true,
+      repeat: 10,
+      duration: .05,
+    }, ">")
+    .to('.Right_Leg', {
+      rotate: 10,
+      duration: .05,
+      yoyo: true,
+      repeat: 10
+    }, 2.25)
+    .to('.Right_Leg', {
+      rotate: 0,
+    }, ">")
+    .to('.Left_Leg', {
+      rotate: -10,
+      duration: .05,
+      yoyo: true,
+      repeat: 10
+    }, 2.25)
+    .to('.Left_Leg', {
+      rotate: 0,
+    }, ">")
+    .to('.Head', {
+      scaleX: 1.2,
+      scaleY: 1.2,
+      transformOrigin: "center center",
+      duration: .1
+    }, 2.25)
+    .to('.Head', {
+      scaleX: 1,
+      scaleY: 1,
+      duration: .1
+    }, ">")
+    .to(['.Body', '.Middle_Foot'], {
+      y: 100,
+      duration: .1
+    }, 2.3)
+    .to(['.Body', '.Middle_Foot'], {
+      y: 0,
+      duration: .1
+    }, ">")
+    .to('.artwork__svg', {
+      y: 0,
+      x: 0,
+      ease: 'sine'
     });
-}
 
-export function fartTwo() {
-  const timeline = gsap.timeline();
-
-  timeline
-    .to('.artwork__svg', {
-      y: -100,
-      ease: 'sine',
-      delay: .2,
-      duration: .25
-    }, 0)
-    .to('.artwork__svg', {
-      x: 5,
-      rotate: 5,
-      yoyo: true,
-      repeat: 10,
-      duration: .05
-    }, 0)
-    .to('.artwork__svg', {
-      x: -5,
-      rotate: -5,
-      yoyo: true,
-      repeat: 10,
-      duration: .05
-    }, 0)
-    .to('.artwork__svg', {
-      y: 0,
-      x: 0,
-      rotate: 0,
-      ease: 'bounce',
-      duration: .25
-    }, "+=.1")
-}
-
-export function fartThree() {
-  const timeline = gsap.timeline();
-
-  timeline
-    .to('.artwork__svg', {
-      y: -100,
-      ease: 'sine',
-      delay: .2,
-      duration: .25
-    }, 0)
-    .to('.artwork__svg', {
-      x: 5,
-      rotate: 360,
-      yoyo: false,
-      repeat: 4,
-      duration: .29
-    }, 0)
-    .to('.artwork__svg', {
-      y: 0,
-      x: 0,
-      rotate: 0,
-      ease: 'bounce',
-      duration: .25
-    }, "+=.1")
-}
-
-export function fartFour() {
-  const timeline = gsap.timeline();
-
-  timeline
-    .to('.artwork__svg', {
-      y: -100,
-      repeat: 21,
-      delay: .2,
-      duration: .1
-    }, 0)
-    .to('.artwork__svg', {
-      y: 0,
-      x: 0,
-      duration: .1
-    }, "+=.1")
-}
-
-
-export function fartFive() {
-  const timeline = gsap.timeline();
-
-  timeline
-    .to('.artwork__svg', {
-      x: 15,
-      yoyo: true,
-      repeat: 50,
-      delay: .2,
-      duration: .05
-    }, .1)
-    .to('.artwork__svg', {
-      y: -50,
-      ease: 'bounce',
-      duration: .25
-    }, 2)
-    .to('.artwork__svg', {
-      y: 0,
-      x: 0,
-      ease: 'power1.out',
-      duration: .2
-    }, "+=.1")
-}
+export const animations = [animationOne.pause(), animationTwo.pause(), animationThree.pause(), animationFour.pause(), animationFive.pause(), animationSix.pause(), animationSeven.pause(), animationEight.pause(), animationNine.pause(), animationTen.pause(), animationEleven.pause()];

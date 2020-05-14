@@ -1,23 +1,23 @@
 import {
-  fartOne,
-  fartTwo,
-  fartThree,
-  fartFour,
-  fartFive
+  animations
 } from './animations.js';
 
 import {soundEffects} from './sounds.js';
 
-var sound = new Howl({
-  src: ['./audio/sfx-0.mp3','./audio/sfx-0.wav'],
-  onplayerror: function() {
-    sound.once('unlock', function() {
-      sound.play();
-    });
-  }
-});
+document.addEventListener('DOMContentLoaded', soundOnLoad());
 
-sound.play();
+function soundOnLoad() {
+  var sound = new Howl({
+    src: ['./audio/sfx-0.mp3','./audio/sfx-0.wav'],
+    onplayerror: function() {
+      sound.once('unlock', function() {
+        sound.play();
+      });
+    }
+  });
+
+  sound.play();
+}
 
 const button = document.querySelector('.artwork');
 const mobileButton = new Hammer(button);
@@ -25,7 +25,7 @@ const mobileButton = new Hammer(button);
 let index = 0;
 
 function playSound() {
-  console.log('INDEX:', index);
+  // console.log('INDEX:', index);
 
   if (index === soundEffects.length) {
     index = 0;
@@ -36,7 +36,10 @@ function playSound() {
   //   soundEffects[index].sound.stop();
   // }
 
+  let animationCounter = soundEffects[index].animation;
+  animations[animationCounter].play(0);
   soundEffects[index].sound.play();
+
   ++index;
 
 }
@@ -45,7 +48,6 @@ function setupSoundListeners() {
 
   if (document.documentElement.clienwidth <= 600) {
     mobileButton.on("press tap", function(event) {
-      console.log(event);
       playSound();
     });
   } else {
