@@ -24,7 +24,26 @@
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="transparent">
 
+  <link rel="preload" href="fonts/Starjedi.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Starjedi.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Starjhol.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Starjhol.woff2" as="font" type="font/woff2" crossorigin>
+
   <style>
+    @font-face {
+      font-family: "Starjedi";
+      src: url('fonts/Starjedi.woff') format('woff'), url('fonts/Starjedi.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "Starjhol";
+      src: url('fonts/Starjhol.woff') format('woff'), url('fonts/Starjhol.woff2') format('woff2');
+      font-display: swap;
+      font-weight: 300;
+    }
+
     html {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -57,6 +76,29 @@
       padding: 5% 0;
 
       overflow: hidden;
+    }
+
+    header {
+      color: black;
+      font-family: Helvetica, Arial;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header p {
+      margin: 0;
+      padding: 0;
+
+      font-family: "Starjedi";
+      font-size: 115%;
+
+      letter-spacing: 1.375;
+    }
+
+    header a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
     }
 
     .artwork {
@@ -95,12 +137,22 @@
     audio {
       display: none;
     }
+
+    .link-intro {
+      font-family: "Starjedi";
+    }
+
+    .link-author {
+      font-family: "Starjhol";
+    }
   </style>
 </head>
 
 <body>
   <header>
-
+    <p>
+      <a class="link-intro" href="https://www.telagraphic.com/">Made by</a> <a class="link-author" href="https://www.telagraphic.com/">telagraphic</a>
+    </p>
   </header>
 
 
