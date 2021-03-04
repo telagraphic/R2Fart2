@@ -189,12 +189,32 @@
 
     }
 
+    .social-media {}
+
+    .social-media img {
+      width: 2rem;
+      /* max-width: 50%; */
+      height: auto;
+    }
+
+    @media(min-width: 42rem) {
+
+      .social-media img {
+        width: 3rem;
+        /* max-width: 50%; */
+        height: auto;
+      }
+
+    }
+
     .link-intro {
       font-family: "Starjedi";
+      font-size: 80%;
     }
 
     .link-author {
       font-family: "Starjhol";
+      font-size: 80%;
     }
   </style>
 </head>
@@ -504,6 +524,11 @@
   </main>
 
   <footer>
+    <p class="social-media">
+      <a href="https://www.instagram.com/r2fart2/">
+        <img src="img/instagram-icon.png" alt="">
+      </a>
+    </p>
     <p>
       <a class="link-intro" href="https://www.telagraphic.com/">Made by</a> <a class="link-author" href="https://www.telagraphic.com/">telagraphic</a>
     </p>
